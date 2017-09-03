@@ -1,0 +1,8 @@
+applications:
+- name: Nomad Office
+  host: nomadofficeapp
+  memory: 128M
+  disk_quota: 128M
+  buildpack: nodejs_buildpack
+  domain: eu-gb.mybluemix.net
+  command: npm start
